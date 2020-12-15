@@ -28,4 +28,4 @@ jobs:
       - name : testing
         run: npm test 2>&1 | tee test.log
       - name : show log file
-        run: cat log.log
+        run: cat test.log
